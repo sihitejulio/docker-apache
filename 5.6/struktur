@@ -1,0 +1,15 @@
+inmapp
+    ppob-client
+        ppob-qa------------(DockerFile) as container
+        ppob-stagging------(DockerFile) as container
+        ppob---------------(DockerFile) as container
+    web-admin
+        web-admin-qa-------(DockerFile) as container
+        web-admin-stagging-(DockerFile) as container
+        web-admin----------(DockerFile) as container
+    nodejs-support-app
+        node-js-qa---------(DockerFile) as container
+        node-js-stagging---(DockerFile) as container
+        node-js------------(DockerFile) as container
+    /docker-compose.yml
+
